@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
 
 	public function pusher()
 	{
-		require_once __DIR__.'\..\vendor\autoload.php';
+		require_once __DIR__.'/../vendor/autoload.php';
 
 		$pusher = new Pusher\Pusher("6ace5daedebbde288aaf", "a82e9e1b9ad3fb5d3ed8", "575092", array('cluster' => 'us2'));
 

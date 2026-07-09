@@ -7,7 +7,7 @@ class C_main extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('m_main');
-		require_once __DIR__.'\..\vendor\autoload.php';
+		require_once __DIR__.'/../vendor/autoload.php';
 	}
 
 	public function index()
